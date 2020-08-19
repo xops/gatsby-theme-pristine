@@ -1,5 +1,6 @@
 import { createMuiTheme, responsiveFontSizes } from "@material-ui/core/styles";
 import grey from "@material-ui/core/colors/grey";
+import blue from "@material-ui/core/colors/blue";
 const lightBackground = "#fff";
 const darkBackground = grey[900];
 
@@ -121,6 +122,9 @@ export const darkTheme = responsiveFontSizes(createMuiTheme({
     MuiTypography: {
       root: {
         color: grey[400],
+      },
+      colorPrimary: {
+        color: blue[300],
       },
     },
   },
